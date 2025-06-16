@@ -4,4 +4,5 @@
 
 # Graphic Design Portfolio Site
 ## Based on a minimalistic, monochromatic museum website
-### A website designed to display my work over the years, styled like an online art museum.
+### A website designed to display my work over the years, styled like an online art museum. 
+### Made using HTML, CSS and Javascript, the site is made with React app as the frontend
