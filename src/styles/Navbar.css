@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #333;
+    color: #f8f9fa;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar a {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.navbar a:hover {
+    color: #b1b3b6;
+}
