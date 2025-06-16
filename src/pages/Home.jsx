@@ -1,6 +1,7 @@
 import '../styles/Home.css'
 
 function Home() {
+  //simple homepage with profile picture and introduction
   return(
     <div className="home">
       <section className="intro">
@@ -8,14 +9,16 @@ function Home() {
         <p>Turning Ideas Into Visual Experiences</p>
       </section>
       
-      <div className="profile-image">
-        <img src="/profile.jpg" alt="Profile" />
-      </div>
+      <div className='second'>
+        <div className="profile-image">
+          <img src="/profile.jpg" alt="Profile" />
+        </div>
 
-      <section className="subtitle">
-        <h2>Graphic Designer</h2>
-        <p>I believe design is a language that connects ideas to people. With experience in branding, editorial design, and UI mockups, I craft visuals that are both aesthetic and functional. I'm driven by curiosity, inspired by culture, and obsessed with details.</p>
-      </section>
+        <section className="subtitle">
+          <h2>Graphic Designer</h2>
+          <p>I believe design is a language that connects ideas to people. With experience in branding, editorial design, and UI mockups, I craft visuals that are both aesthetic and functional. I'm driven by curiosity, inspired by culture, and obsessed with details.</p>
+        </section>
+      </div>
     </div>
   );
 }

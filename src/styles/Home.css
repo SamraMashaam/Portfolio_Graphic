@@ -23,12 +23,18 @@ body {
 }
 
 .subtitle {
-  padding: 40px;
+  padding: 20px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px;
   font-size: 1.1rem;
   line-height: 1.8;
-  text-align: center;
+  
+}
+
+.second{
+    display: flex;
+    padding: 40px;
+    margin-left: 100px;
 }
 
 /* Create animation 'variable' */
@@ -37,7 +43,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.intro, .subtitle {
+.intro, .subtitle, .profile-image{
   opacity: 0;
   animation: fadeIn 1s ease-out forwards; /* Apply 'variable' to html */
 }

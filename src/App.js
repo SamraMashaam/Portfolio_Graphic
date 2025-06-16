@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 
 function App() {
+  //navigation bar and routes to each page
   return (
     <BrowserRouter>
     <div>

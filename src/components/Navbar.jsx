@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import '../styles/Navbar.css';
 
 function Navbar(){
+    //simple navbar component to be displayed on each page
     return(
         <nav className="navbar">
             <ul>
