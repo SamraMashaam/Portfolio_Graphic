@@ -1,2 +1,2 @@
-First, install node modules but running 'npm install' in the project folder.
-Then, run prject using 'npm start'
+# First, install node modules but running 'npm install' in the project folder.
+# Then, run project using 'npm start'
